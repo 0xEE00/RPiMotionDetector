@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPiMotionDetector", "RPiMotionDetector\RPiMotionDetector.csproj", "{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|ARM.ActiveCfg = Debug|ARM
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|ARM.Build.0 = Debug|ARM
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|ARM.Deploy.0 = Debug|ARM
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|x64.ActiveCfg = Debug|x64
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|x64.Build.0 = Debug|x64
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|x64.Deploy.0 = Debug|x64
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|x86.ActiveCfg = Debug|x86
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|x86.Build.0 = Debug|x86
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Debug|x86.Deploy.0 = Debug|x86
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|ARM.ActiveCfg = Release|ARM
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|ARM.Build.0 = Release|ARM
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|ARM.Deploy.0 = Release|ARM
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|x64.ActiveCfg = Release|x64
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|x64.Build.0 = Release|x64
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|x64.Deploy.0 = Release|x64
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|x86.ActiveCfg = Release|x86
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|x86.Build.0 = Release|x86
+		{05CCD1A5-C5CA-4558-92D8-9774A57BBEA6}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3268D78-5688-4A73-9220-B6DD6DEA8C5D}
+	EndGlobalSection
+EndGlobal
