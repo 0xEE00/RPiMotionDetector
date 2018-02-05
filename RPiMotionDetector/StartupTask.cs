@@ -18,7 +18,7 @@ namespace RPiMotionDetector
         private const int PIR_PIN = 4;
         private GpioPin PinPIR;
 
-        public async void Run(IBackgroundTaskInstance taskInstance)
+        public void Run(IBackgroundTaskInstance taskInstance)
         {
             // 
             // TODO: Insert code to perform background work
@@ -28,18 +28,18 @@ namespace RPiMotionDetector
             // described in http://aka.ms/backgroundtaskdeferral
             //
             BackgroundTaskDeferral deferral = taskInstance.GetDeferral();
-            while (true)
-            {
-                InitializeGPIO();
-                //await SendMail();
-                //await Task.Delay(60000);
-            }
-            
+            //while (true)
+            //{
+            InitializeGPIO();
+            //await SendMail();
+            //    await Task.Delay(60000);
+            //}
+            deferral.Complete();
 
 
         }
 
-        private  void InitializeGPIO()
+        private void InitializeGPIO()
         {
             try
             {
@@ -59,8 +59,9 @@ namespace RPiMotionDetector
         {
             try
             {
-                await SendMail();
-                
+                if (args.Edge == GpioPinEdge.RisingEdge)
+                    await SendMail();
+
                 //MailMessage mail = new MailMessage("you@yourcompany.com", "user@hotmail.com");
                 //SmtpClient client = new SmtpClient();
                 //client.Port = 25;
